@@ -1,0 +1,12 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html>
+    <head>
+        <title>SecondIndex</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <%=("Today is " +java.util.Calendar.getInstance().getTime())%>
+        <%=request.getParameter("uname")%>
+ 
+    </body>
+</html>
